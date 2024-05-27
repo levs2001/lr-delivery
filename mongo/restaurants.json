@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Restaurant 1",
+    "phone": "555-1234",
+    "email": "restaurant1@example.com",
+    "founding_day": "01.01.2020",
+    "menu": [
+      {
+        "id": {
+          "$oid": "1234567890abcdef1234567"
+        },
+        "name": "Pizza Margherita",
+        "price": 10.00,
+        "dish_category": "Pizza"
+      },
+      {
+        "id": {
+          "$oid": "1234567890abcdef1234568"
+        },
+        "name": "Spaghetti Bolognese",
+        "price": 12.00,
+        "dish_category": "Pasta"
+      },
+      {
+        "id": {
+          "$oid": "1234567890abcdef1234569"
+        },
+        "name": "Tiramisu",
+        "price": 6.00,
+        "dish_category": "Dessert"
+      }
+    ],
+    "update_time": 1633023675000
+  },
+  {
+    "name": "Restaurant 2",
+    "phone": "555-5678",
+    "email": "restaurant2@example.com",
+    "founding_day": "02.02.2020",
+    "menu": [
+      {
+        "id": {
+          "$oid": "1234567890abcdef123456a"
+        },
+        "name": "Cheeseburger",
+        "price": 8.00,
+        "dish_category": "Burger"
+      },
+      {
+        "id": {
+          "$oid": "1234567890abcdef123456b"
+        },
+        "name": "French Fries",
+        "price": 3.00,
+        "dish_category": "Sides"
+      },
+      {
+        "id": {
+          "$oid": "1234567890abcdef123456c"
+        },
+        "name": "Chocolate Milkshake",
+        "price": 5.00,
+        "dish_category": "Dessert"
+      }
+    ],
+    "update_time": 1633023676000
+  },
+  {
+    "name": "Restaurant 10",
+    "phone": "555-9999",
+    "email": "restaurant10@example.com",
+    "founding_day": "10.10.2020",
+    "menu": [
+      {
+        "id": {
+          "$oid": "1234567890abcdef1234575"
+        },
+        "name": "Sushi Roll",
+        "price": 12.00,
+        "dish_category": "Sushi"
+      },
+      {
+        "id": {
+          "$oid": "1234567890abcdef1234576"
+        },
+        "name": "Miso Soup",
+        "price": 4.00,
+        "dish_category": "Soup"
+      },
+      {
+        "id": {
+          "$oid": "1234567890abcdef1234577"
+        },
+        "name": "Green Tea Ice Cream",
+        "price": 6.00,
+        "dish_category": "Dessert"
+      }
+    ],
+    "update_time": 1633023774000
+  }
+]

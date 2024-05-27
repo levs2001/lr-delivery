@@ -1,0 +1,20 @@
+# Общение с кассандрой может производиться по 9042 порту (дефолтный).
+version: '3.8'
+
+services:
+  1.mongo.lr:
+    image: mongo:5
+    container_name: 1.mongo.lr
+    command: [ "--bind_ip_all", "--port", "30001" ]
+    volumes:
+      - ./data/mongo-1:/data/db,size=100m
+    ports:
+      - "30001:30001"
+    deploy:
+      resources:
+        limits:
+          memory: 512m
+          cpus: '1'
+        reservations:
+          memory: 256m
+          cpus: '0.5'

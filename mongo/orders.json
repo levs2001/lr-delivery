@@ -1,0 +1,171 @@
+[
+  {
+    "restaurant": {
+      "id": {
+        "$oid": "1234567890abcdef1234567"
+      }
+    },
+    "order_date": {
+      "$date": {
+        "$numberLong": "1633023675000"
+      }
+    },
+    "client": {
+      "id": {
+        "$oid": "1234567890abcdef1234568"
+      }
+    },
+    "ordered_dish": [
+      {
+        "id": {
+          "$oid": "1234567890abcdef1234569"
+        },
+        "name": "Pizza Margherita",
+        "price": 10.00,
+        "quantity": 1
+      },
+      {
+        "id": {
+          "$oid": "1234567890abcdef123456a"
+        },
+        "name": "Tiramisu",
+        "price": 6.00,
+        "quantity": 2
+      }
+    ],
+    "payed_by_bonuses": 0.00,
+    "cost": 22.00,
+    "payment": 22.00,
+    "bonus_for_visit": 2.00,
+    "statuses": [
+      {
+        "status": "CLOSED",
+        "time": "2021-10-01 12:30:00"
+      },
+      {
+        "status": "DELIVERING",
+        "time": "2021-10-01 12:00:00"
+      },
+      {
+        "status": "COOKING",
+        "time": "2021-10-01 11:30:00"
+      },
+      {
+        "status": "OPEN",
+        "order_date": "2021-10-01 11:00:00"
+      }
+    ],
+    "final_status": "CLOSED",
+    "update_time": 1633023675000
+  },
+  {
+    "restaurant": {
+      "id": {
+        "$oid": "1234567890abcdef123456a"
+      }
+    },
+    "order_date": {
+      "$date": {
+        "$numberLong": "1633023676000"
+      }
+    },
+    "client": {
+      "id": {
+        "$oid": "1234567890abcdef1234569"
+      }
+    },
+    "ordered_dish": [
+      {
+        "id": {
+          "$oid": "1234567890abcdef123456b"
+        },
+        "name": "Cheeseburger",
+        "price": 8.00,
+        "quantity": 1
+      },
+      {
+        "id": {
+          "$oid": "1234567890abcdef123456c"
+        },
+        "name": "Chocolate Milkshake",
+        "price": 5.00,
+        "quantity": 1
+      }
+    ],
+    "payed_by_bonuses": 0.00,
+    "cost": 18.00,
+    "payment": 18.00,
+    "bonus_for_visit": 2.00,
+    "statuses": [
+      {
+        "status": "CLOSED",
+        "time": "2021-10-02 12:30:00"
+      },
+      {
+        "status": "DELIVERING",
+        "time": "2021-10-02 12:00:00"
+      },
+      {
+        "status": "COOKING",
+        "time": "2021-10-02 11:30:00"
+      },
+      {
+        "status": "OPEN",
+        "order_date": "2021-10-02 11:00:00"
+      }
+    ],
+    "final_status": "CLOSED",
+    "update_time": 1633023676000
+  },
+  {
+    "restaurant": {
+      "id": {
+        "$oid": "1234567890abcdef1234575"
+      }
+    },
+    "order_date": {
+      "$date": {
+        "$numberLong": "1633023774000"
+      }
+    },
+    "client": {
+      "id": {
+        "$oid": "1234567890abcdef1234576"
+      }
+    },
+    "ordered_dish": [
+      {
+        "id": {
+          "$oid": "1234567890abcdef1234577"
+        },
+        "name": "Green Tea Ice Cream",
+        "price": 6.00,
+        "quantity": 1
+      }
+    ],
+    "payed_by_bonuses": 0.00,
+    "cost": 6.00,
+    "payment": 6.00,
+    "bonus_for_visit": 2.00,
+    "statuses": [
+      {
+        "status": "CLOSED",
+        "time": "2021-10-10 12:30:00"
+      },
+      {
+        "status": "DELIVERING",
+        "time": "2021-10-10 12:00:00"
+      },
+      {
+        "status": "COOKING",
+        "time": "2021-10-10 11:30:00"
+      },
+      {
+        "status": "OPEN",
+        "order_date": "2021-10-10 11:00:00"
+      }
+    ],
+    "final_status": "CLOSED",
+    "update_time": 1633023774000
+  }
+]

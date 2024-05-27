@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Иванова Инна Ивановна",
+    "phone": "5824585",
+    "birthday": "30.04.2014",
+    "email": "iii@mail.ru",
+    "login": "iii",
+    "address": "Московский пр. 12",
+    "update_time": 1716832080425
+  },
+  {
+    "name": "Екатрина Романовна Дашкова",
+    "phone": "5824587",
+    "birthday": "01.01.1991",
+    "email": "erd@mail.ru",
+    "login": "kati17",
+    "address": "Дворцовая набережная 38",
+    "update_time": 1716832084007
+  },
+  {
+    "name": "Александр Сергеевич Пушкин",
+    "phone": "5824588",
+    "birthday": "06.06.1799",
+    "email": "asp@mail.ru",
+    "login": "pushkin",
+    "address": "Мойка 12",
+    "update_time": 1716832087560
+  },
+  {
+    "name": "Мария Александровна Ульянова",
+    "phone": "5824589",
+    "birthday": "22.02.1835",
+    "email": "mau@mail.ru",
+    "login": "masha",
+    "address": "Симбирск, Большая Садовая 111",
+    "update_time": 1716832091112
+  },
+  {
+    "name": "Владимир Ильич Ленин",
+    "phone": "5824590",
+    "birthday": "22.04.1870",
+    "email": "vil@mail.ru",
+    "login": "lenin",
+    "address": "Горки Ленинские",
+    "update_time": 1716832094664
+  },
+  {
+    "name": "Иосиф Виссарионович Сталин",
+    "phone": "5824591",
+    "birthday": "18.12.1878",
+    "email": "ivs@mail.ru",
+    "login": "stalin",
+    "address": "Кунцево, Старая площадь 1",
+    "update_time": 1716832098216
+  },
+  {
+    "name": "Никита Сергеевич Хрущев",
+    "phone": "5824592",
+    "birthday": "15.04.1894",
+    "email": "nsh@mail.ru",
+    "login": "khruschev",
+    "address": "Москва, Старомонетный переулок 3/5",
+    "update_time": 1716832101768
+  },
+  {
+    "name": "Леонид Ильич Брежнев",
+    "phone": "5824593",
+    "birthday": "19.12.1906",
+    "email": "lib@mail.ru",
+    "login": "brezhnev",
+    "address": "Москва, Краснопресненская набережная 2",
+    "update_time": 1716832105320
+  },
+  {
+    "name": "Михаил Сергеевич Горбачев",
+    "phone": "5824594",
+    "birthday": "02.03.1931",
+    "email": "msg@mail.ru",
+    "login": "gorbachev",
+    "address": "Москва, ул. Новый Арбат 23",
+    "update_time": 1716832108872
+  }
+]
